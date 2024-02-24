@@ -1,6 +1,6 @@
 {
   "name": "create-iris-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NextJs Boilerplate for web applications and Saas",
   "bin": "./bin/cli.js",
   "scripts": {
