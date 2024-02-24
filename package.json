@@ -2,7 +2,7 @@
   "name": "create-iris-app",
   "version": "0.1.0",
   "description": "NextJs Boilerplate for web applications and Saas",
-  "bin": "./bin/cli",
+  "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
