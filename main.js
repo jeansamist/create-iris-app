@@ -33,7 +33,7 @@ const runCommand = (command) => {
 };
 const initProject = (name) => {
   const s = spinner();
-  const gitCheckoutCommand = `git clone --depth 1 https://github.com/jeansamist/create-iris-app ${name}`;
+  const gitCheckoutCommand = `git clone --depth 1 https://github.com/jeansamist/iris-app-template ${name}`;
   const installDepsCommand = `cd ${name} && npm install`;
 
   s.start("Clonning the repository");
