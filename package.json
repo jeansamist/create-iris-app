@@ -1,6 +1,6 @@
 {
-  "name": "test-create-iris-app",
-  "version": "0.0.3",
+  "name": "create-iris-app",
+  "version": "0.0.1",
   "description": "Cli for installation of iris app",
   "main": "./main.js",
   "bin": "./main.js",

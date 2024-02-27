@@ -41,7 +41,7 @@ const initProject = (name) => {
   if (!checkout) process.exit(-1);
   s.stop("Repository clonned");
 
-  const pkg = path.join(path.join(__dirname, ".."), "package.json");
+  const pkg = path.join(path.join(__dirname, name), "package.json");
   const json = JSON.parse(fs.readFileSync(pkg, "utf8"));
   json["name"] = name;
   json["version"] = "0.0.1";
